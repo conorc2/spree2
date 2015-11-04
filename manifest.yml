@@ -1,0 +1,11 @@
+applications:
+- services:
+  - ClearDB MySQL Database-lg
+  disk_quota: 1024M
+  host: spree2
+  name: spree2
+  path: .
+  domain: eu-gb.mybluemix.net
+  instances: 1
+  memory: 256M
+  buildpack: https://github.com/cloudfoundry/ruby-buildpack.git#v1.3.0
